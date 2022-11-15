@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,200;0,500;0,700;1,100;1,300&family=Inter:wght@200;400;500;800&family=Lobster&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;1,200;1,300;1,600&display=swap");
+
+:root {
+  color: hsl(0, 0%, 41%);
+  color: hsl(0, 0%, 8%);
+}
+
+body {
+  font-family: "epilogue";
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+
+/* 
+header-SECTION */
+
+.nav-box {
+}
+a.logo {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.a-image {
+  margin-right: 15px;
+}
+
+.menu {
+  border: none;
+  border-radius: 16px;
+  color: hsl(0, 0%, 98%);
+  box-shadow: 0 0 30px #ccc;
+}
+
+button.btnsumbit {
+  border-radius: 10px;
+  color: hsl(0, 0%, 41%);
+  border-color: hsl(0, 0%, 41%);
+  margin-left: 20px;
+
+}
+button.btnsumbit:hover {
+background-color: #726CEE;
+color: #fff;
+}
+
+.btn-check:focus+.btn-outline-success, .btn-outline-success:focus {
+    box-shadow: 0 0 0 0.25rem #726CEE25;
+}
+
+/* HERO-SECTION */
+
+section.hero-section {
+  padding: 50px 0px;
+}
+
+.hero-image {
+  padding: 40px;
+}
+
+.hero-image img {
+  width: 100%;
+
+}
+
+.hero-contant {
+  padding: 130px 0px 0px 50px;
+}
+
+.hero-contant h1 {
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 80px;
+  color: hsl(0, 0%, 8%);
+}
+
+.hero-contant p {
+  padding-top: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  color: hsl(0, 0%, 41%);
+}
+
+button.btn1 {
+  margin-top: 40px;
+  color: #fff;
+}
+
+button.btn1:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 8%);
+  transition: 0.3s ease-in;
+}
+
+.icon-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 35%;
+  width: 100%;
+}
+
+.icon-image img {
+}
+
+.offcanvas-end {
+  top: 0;
+  right: 0;
+  width: 300px;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  transform: translateX(100%);
+  padding: 1rem 2rem;
+}
+
+.offcanvas-end .nav-item > a {
+  color: #333;
+}
+
+.offcanvas-end .menu {
+  width: 100%;
+}
+
+.offcanvas-end form {
+  display: flex;
+  flex-direction: column;
+}
+
+.offcanvas-end button.btnsumbit {
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 1920px) {
+}
+@media screen and (max-width: 1600px) {
+}
+@media screen and (max-width: 1440px) {
+}
+@media screen and (max-width: 1440px) {
+    .hero-contant {
+        padding: 40px 0;
+    }
+    .hero-contant h1 {
+        font-size: 68px;
+       
+    }
+    .hero-contant p {
+        padding: 100px 30px 0px 0px  ;
+        
+    }
+
+    .icon-image {
+       
+        padding-top: 25%;
+       
+    }
+}
+@media screen and (max-width: 1240px) {
+}
+@media screen and (max-width: 1200px) {
+    .hero-contant {
+        padding: 3rem 0 0;
+    }
+
+    .hero-contant h1 {
+        font-size: 60px;
+    }
+    .icon-image {
+        padding-top: 10%;
+    }
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 992px) {
+    .hero-contant h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    
+
+    .hero-image {
+        padding: 3rem 0 0 1rem;
+    }
+
+    .hero-contant p {
+        padding-top: 45px;
+        font-size: 18px;
+        font-weight: 500;
+        color: hsl(0, 0%, 41%);
+    }
+    .icon-image img {
+        max-width: 65px;
+        height: 100%;
+    }
+    .hero-row {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+
+
+}
+@media screen and (max-width: 768px) {
+  .hero-contant {
+    padding: 70px 10px;
+  }
+  .hero-contant h1 {
+    font-size: 40px;
+  }
+  .hero-image {
+    padding: 0px;
+  }
+
+  .icon-image {
+    width: 100%;
+
+    height: 100%;
+  }
+
+  
+
+  .icon-image{
+    margin-top: 3rem;
+  }
+
+  .icon-image img {
+    max-width: 80px;
+
+}
+}
+@media screen and (max-width: 479px) {
+
+    .hero-contant p {
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 375px) {
+}
